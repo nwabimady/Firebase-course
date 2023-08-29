@@ -12,7 +12,11 @@
   gap: 32px;
 }
 
+<<<<<<< HEAD
 .contentFlexVertical {
+=======
+.userContent {
+>>>>>>> master
   display: flex;
   gap: 16px;
   flex-direction: column;
@@ -33,6 +37,7 @@
   background-color: red;
   color: white;
 }
+<<<<<<< HEAD
 
 .coolLabel {
   display: flex;
@@ -44,3 +49,5 @@
   padding: 0.375rem 0.75rem;
   border: 1px solid black;
 }
+=======
+>>>>>>> master
