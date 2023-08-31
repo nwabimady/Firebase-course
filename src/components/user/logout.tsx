@@ -8,7 +8,7 @@ export const Logout: FC = () => {
   };
 
   return (
-    <button className="btn btn-danger" onClick={onLogoutClick}>
+    <button className="coolButton orangeButton" onClick={onLogoutClick}>
       Logout
     </button>
   );

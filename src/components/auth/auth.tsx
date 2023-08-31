@@ -1,6 +1,8 @@
 import { FC } from "react";
 import { GoogleAuth } from "./google-auth";
 import { MailRegister } from "./mail-register";
+import { MailLogin } from "./mail-login";
+
 export const Auth: FC = () => {
   return (
     <div className="contentGrid">
@@ -10,7 +12,9 @@ export const Auth: FC = () => {
       <div>
         <MailRegister />
       </div>
-      <div>Mail Login</div>
+      <div>
+        <MailLogin />
+      </div>
     </div>
   );
 };
