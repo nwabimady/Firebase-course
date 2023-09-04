@@ -6,10 +6,11 @@ export const Logout: FC = () => {
   const onLogoutClick = () => {
     signOut(auth);
   };
-
   return (
-    <button className="coolButton orangeButton" onClick={onLogoutClick}>
-      Logout
-    </button>
+    <div className="contentFlexVertical">
+      <button className="coolButton redButton " onClick={onLogoutClick}>
+        Logout
+      </button>
+    </div>
   );
 };
