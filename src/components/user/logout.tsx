@@ -7,16 +7,10 @@ export const Logout: FC = () => {
     signOut(auth);
   };
   return (
-<<<<<<< HEAD
     <div className="contentFlexVertical">
       <button className="coolButton redButton " onClick={onLogoutClick}>
         Logout
       </button>
     </div>
-=======
-    <button className="coolButton orangeButton" onClick={onLogoutClick}>
-      Logout
-    </button>
->>>>>>> master
   );
 };
