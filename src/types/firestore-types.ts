@@ -5,5 +5,6 @@ export interface FirestoreEntity {
 export interface TaskEntity extends FirestoreEntity {
     title: string;
     userId: string;
+    fileName: string;
 }
 
